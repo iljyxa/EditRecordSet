@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5aff94a-9ce2-4bdb-8770-e7dde67b3c0d">
+  <producedTypes>
+    <objectType typeId="434cbea3-78c3-4a8c-887b-7c75bb44f697" valueTypeId="442171b8-dc90-4037-a96f-220062487d68"/>
+  </producedTypes>
+  <name>КорректировкаЗаписейРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка записей регистров</value>
+  </synonym>
+  <comment>1.0.0.4</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="4ec3102a-8a8c-4251-af49-59da466cab33"/>
+  <defaultForm>ExternalDataProcessor.КорректировкаЗаписейРегистров.Form.Форма</defaultForm>
+  <forms uuid="7fad800d-952e-4af6-9fec-1aca192e00a8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57a6c705-bd2d-4ac4-9500-34ffd7322f43">
+    <name>ФормаВосстановленияНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма восстановления набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
